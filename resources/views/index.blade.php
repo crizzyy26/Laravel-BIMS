@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <div class="flex items-center border-t border-blue-100 bg-white p-6 sm:p-8 lg:border-l lg:border-t-0 lg:p-10">
+        <div class="flex items-center border-t border-blue-100 bg-white p-6 sm:p-8 lg:border-t-0 lg:p-10">
           <div class="w-full">
             <div class="mb-8">
               <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-700">

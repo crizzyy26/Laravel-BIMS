@@ -27,7 +27,7 @@
   <div id="sidebarBackdrop" class="fixed inset-0 z-30 hidden bg-blue-950/30 lg:hidden"></div>
 
   <div class="flex min-h-screen">
-    <aside id="sidebar" class="fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-blue-100 bg-white px-4 py-5 shadow-sm">
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-40 flex w-64 flex-col bg-white px-4 py-5 shadow-sm">
       <div class="mb-7 border-b border-blue-100 pb-5">
         <h1 class="pr-10 text-base font-bold leading-snug text-blue-950">Barangay Information Management System</h1>
       </div>
@@ -48,7 +48,7 @@
     </aside>
 
     <main id="pageMain" class="min-h-screen flex-1 bg-white">
-      <section class="min-h-screen border-l border-blue-100 bg-white p-6 pt-20 sm:p-8 lg:pt-8">
+      <section class="min-h-screen bg-white p-6 pt-20 sm:p-8 lg:pt-8">
         <div class="flex flex-col gap-4 border-b border-blue-100 pb-6 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <p class="text-sm font-medium uppercase tracking-[0.24em] text-blue-700">Event Management</p>
