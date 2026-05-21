@@ -56,4 +56,4 @@ RUN printf 'server {\n\
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "php artisan config:cache && php artisan route:cache && sed -i \"s/listen 80;/listen ${PORT:-10000};/\" /etc/nginx/sites-available/default && php-fpm -D && nginx -g 'daemon off;'"]
+CMD ["sh", "-c", "php artisan config:cache && sed -i \"s/listen 80;/listen ${PORT:-10000};/\" /etc/nginx/sites-available/default && php-fpm -D && nginx -g 'daemon off;'"]
